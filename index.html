@@ -1,0 +1,48 @@
+<html>
+<head>
+  <link rel="shortcut icon" href="core/design/img/ico/nt.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>NoteText</title>
+  <link href="core/design/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="core/design/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+  <input class="input" id="input" placeholder="Title"></input>
+  <textarea class="textarea" id="textarea" placeholder="Content"></textarea>
+  <div class="bt-content text-center">
+    <a id="descargar" onclick="textDownload()"><img src="core/design/img/svg/download.svg" alt="download" width="24" height="24" /></a>
+    <a id="borrar" onclick="textReset()"><img src="core/design/img/svg/reset.svg" alt="reset" width="24" height="24" /></a>
+  </div>
+</div>
+
+</body>
+  <script type="text/javascript">
+
+function textDownload() {
+
+      var titleDocument = document.getElementById('input').value;
+      var contentText = document.getElementById('textarea').value;
+      var elem = document.getElementById('descargar');
+
+      elem.download = titleDocument+".txt";
+      elem.href = "data:application/octet-stream," + encodeURIComponent(contentText);
+}
+
+function textReset(){
+    document.getElementById('textarea').value = "";
+}
+
+
+  </script>
+
+  <script src="core/design/vendor/jquery/jquery.min.js"></script>
+  <script src="core/design/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</html>

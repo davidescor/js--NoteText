@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e8e8f0;
+}
+.input{
+  padding: 10px;
+  border: none;
+  margin-top: 2vh;
+  height: 4vh;
+  width: 100%
+}
+.textarea{
+  padding: 10px;
+  border: none;
+  margin-top: 2vh;
+  height: 88vh;
+  width: 100%
+}
+.bt-content{
+  margin-top: 1%;
+}
