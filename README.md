@@ -8,7 +8,7 @@ Template where you can add text and download the text in .txt format.
 
 ## Installation
 
-1. Upload content in your website.
+Upload content in your website.
 
 
 ## Authors
