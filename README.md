@@ -6,11 +6,6 @@
 Template where you can add text and download the text in .txt format.
 
 
-## Installation
-
-Upload content in your website.
-
-
 ## Authors
 
  *Developed and designed by*  **David Espier**
