@@ -1,4 +1,4 @@
-<img src="https://i.postimg.cc/SsyBT9ZP/notetext.png">
+<img src="http://davidespier.com/core/design/img/web/noteText.png">
 
 
 # NoteText
