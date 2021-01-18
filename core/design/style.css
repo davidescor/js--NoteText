@@ -4,18 +4,36 @@ body{
   font-family: 'Open Sans', sans-serif;
   background-color: #e8e8f0;
 }
+.navbar{
+  cursor: context-menu;
+  background-color: #e8e8f0;
+}
+
+.nav-link{
+  color: #333;
+}
+
+
+.dropdown-item{
+  background-color: white;
+}
+.dropdown-item:active{
+  background-color: white;
+}
+
+
 .input{
   padding: 10px;
   border: none;
   margin-top: 2vh;
-  height: 4vh;
+  height: 5vh;
   width: 100%
 }
 .textarea{
   padding: 10px;
   border: none;
   margin-top: 2vh;
-  height: 88vh;
+  height: 80vh;
   width: 100%
 }
 .bt-content{
